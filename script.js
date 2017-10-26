@@ -51,7 +51,7 @@ function getNews(src) {
         addCard(doc.articles[j].title, doc.articles[j].description, doc.articles[j].url, src[i].name, new Date(doc.articles[j].publishedAt));
       }
     };
-    xhr.open("GET", "https://newsapi.org/v1/articles?apiKey=06fbd7c470bb4580b930d28a9934fa45&source=" + src[i].id);
+    xhr.open("GET", "http://www.ytn.co.kr/_ln/0103_201710261328239742);
     xhr.send();
   }
 }
